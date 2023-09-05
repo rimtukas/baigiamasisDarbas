@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+    <suite name="Automation test" parallel="methods" thread-count="6">
+        <test name="SeleniumEasy">
+            <classes>
+                <class name="lt.baigiamasisDarbas.pom.tests.selenium_easy.SimpleFormDemoTest"/>
+                <class name="lt.baigiamasisDarbas.pom.tests.selenium_easy.BasicSelectDropDownTest"/>
+                <class name="lt.baigiamasisDarbas.pom.tests.selenium_easy.BasicCheckBoxTest"/>
+                <class name="lt.baigiamasisDarbas.pom.tests.selenium_easy.BasicRadioButtonTest"/>
+            </classes>
+        </test>
+        <test name="DemoQA">
+            <classes>
+                <class name="lt.vcs.pom.tests.demoqa.TextBoxTest"/>
+            </classes>
+        </test>
+    </suite>
