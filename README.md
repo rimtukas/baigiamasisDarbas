@@ -40,27 +40,33 @@ Expected result: login succesful
 12. Click on 'Atnaujinti duomenis' button
 
 Expected result: data insert correctly
-- Test 3 (tryToLogInWithExistingAccountInfo)
+- Test 3 (Search results)
 
-*Try to log in with existing account information*
-1. Open log in page
-2. Input email(vismante.lisauskaite@gmail.com) and password(vcsprojektas)
-3. Click "Login" button
-4. Check if account name(Vismante Lisauskaite) appeared on top and current Url is correct
-### Spice Search
-- Test 1 (searchForSpicesWithSearchBar)
-
-*Try to search for spices with search bar*
+*Search different items*
 1. Open main page
-2. Add spice name(Deggi Mirch) to search bar
-3. Click "Search" button
-4. Check if spice element(Deggi Mirch) is present
-- Test 2 (searchForSpicesWithFilters)
+2. Input 'usb jungtis' in search window
+3. Check search results
+4. Input 'baterija' in search window
+5. Check search results
 
-*Try to search for a spice with filters*
-1. Drag mouse to section(Produktai)
-2. Click on section(Grynieji prieskoniai) that appeared
-3. Check if spice element(random) is present on the page
-4. Click button "Čili pipirai" from dropdown menu
-5. Click on checkbox "Aštrus"
-6. Check if spice element(Deggi Mirch) is present and spice element(random) is not 
+Expected result: search result show different items
+
+- Test 4 (Put items in collecting bag)
+
+*Putting collected items in collecting bag*
+1. Open main page
+2. Input 'peilis' in search window
+3. Select item in search results
+4. Select 'į krepšelį' button
+5. Click on 'Krepšelis' button
+6. Check for selected item in opened window
+
+Expected result: selected item appears in the collecting bag
+
+- Test 5 (Search items in categories)
+
+*Searching items in sidebar categories*
+1. Click on 'Automobiliui' category
+2. Click on 'Visos prekės' subcategory
+3. Click on 'Lipdukas Žemaitija' item
+4. Check on item availability
