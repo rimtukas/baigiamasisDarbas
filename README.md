@@ -1,4 +1,4 @@
-# Project Receptorius
+# Project Puiki
 ## Setup
 ### Site used for testing
 [puiki](https://puiki.lt/)
@@ -25,7 +25,7 @@ Expected result: login succesful
 ### 
 - Test 2 (changeMyAccountInformation)
 
-*Change 'My account' information*
+*Change 'My account'  information by adding address *
 1. Open page 'Mano paskyra'
 2. Click button 'Pridėti adresą'
 3. Click button 'add new address'
@@ -40,14 +40,13 @@ Expected result: login succesful
 12. Click on 'Atnaujinti duomenis' button
 
 Expected result: data insert correctly
+- 
 - Test 3 (Search results)
 
 *Search different items*
 1. Open main page
 2. Input 'usb jungtis' in search window
 3. Check search results
-4. Input 'baterija' in search window
-5. Check search results
 
 Expected result: search result show different items
 
@@ -65,8 +64,11 @@ Expected result: selected item appears in the collecting bag
 
 - Test 5 (Search items in categories)
 
-*Searching items in sidebar categories*
-1. Click on 'Automobiliui' category
-2. Click on 'Visos prekės' subcategory
-3. Click on 'Lipdukas Žemaitija' item
-4. Check on item availability
+*Searching items in stock in sidebar categories*
+1. Open main page 
+2. Click on 'Automobiliui' category
+3. Click on 'Visos prekės' subcategory
+4. Click on 'Lipdukas Žemaitija' item
+5. Check on item availability in stock
+
+Expected result: program shows item availability
