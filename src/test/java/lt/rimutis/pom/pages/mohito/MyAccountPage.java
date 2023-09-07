@@ -9,3 +9,4 @@ public class MyAccountPage {
         Common.openUrl("https://www.mohito.com/lt/lt/");
 
     }
+}

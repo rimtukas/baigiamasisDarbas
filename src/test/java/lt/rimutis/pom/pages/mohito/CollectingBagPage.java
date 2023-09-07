@@ -9,3 +9,4 @@ public class CollectingBagPage {
         Common.openUrl("https://www.mohito.com/lt/lt/");
 
     }
+}

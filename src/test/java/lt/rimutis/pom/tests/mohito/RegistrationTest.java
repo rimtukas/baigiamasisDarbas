@@ -16,15 +16,15 @@ public class RegistrationTest {
         String valueC = "Pavardenis";
         String valueD = "pavardenis";
         WebElement sendValueToPastasField = driver.findElement(By.xpath(//*[@id="loginRegisterRoot"]/div/div[2]/div/form/div[1]));
-        sendValueToPastasField.sendKeys(valueA);
+        sendValueToPastasField.sendKeys(valueA),
         WebElement sendValueToVardasField = driver.findElement(By.xpath(//*[@id="loginRegisterRoot"]/div/div[2]/div/form/div[2]));
-        sendValueToVardasField.sendKeys(valueB);
+        sendValueToVardasField.sendKeys(valueB),
         WebElement sendValueToPavardeField = driver.findElement(By.xpath(//*[@id="loginRegisterRoot"]/div/div[2]/div/form/div[3]));
-        sendValueToPavardeField.sendKeys(valueC);
+        sendValueToPavardeField.sendKeys(valueC),
         WebElement sendValueToPasswordField = driver.findElement(By.xpath(//*[@id="loginRegisterRoot"]/div/div[2]/div/form/div[4]));
-        sendValueToPasswordField.sendKeys(valueD);
+        sendValueToPasswordField.sendKeys(valueD),
         WebElement clickButtonSukurtiPaskyra = driver.findElement(By.xpath(//*[@id="loginRegisterRoot"]/div/div[2]/div/form/button));
-       clickButtonSukurtiPaskyra.click();
+       clickButtonSukurtiPaskyra.click(),
 
 
     }

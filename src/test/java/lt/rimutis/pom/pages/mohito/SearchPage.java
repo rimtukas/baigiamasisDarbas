@@ -9,3 +9,4 @@ public class SearchPage {
         Common.openUrl("https://www.mohito.com/lt/lt/");
 
     }
+}
